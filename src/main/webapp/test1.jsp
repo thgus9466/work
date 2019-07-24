@@ -7,14 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>Work</h3>
-	<h2>test</h2>
-
-	<h2>test</h2>
-	<h2>test</h2>
-	<h2>test</h2>
-
-	<h1>sdfsdf</h1>
-
+	<h3>test</h3>
 </body>
 </html>
