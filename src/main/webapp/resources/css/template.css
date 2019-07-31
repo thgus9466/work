@@ -23,7 +23,7 @@
 		left: 0px;		
 	}	
 	.fixedtopbar{
-		max-width : 1060px;
+		max-width : 1200px;
 		height : 100%;
 		margin: 0px auto;
 	}	
@@ -49,7 +49,6 @@
 	}
 	
 	#menubar{
-		width : 350px;
 		height : 100%;		
 	}	
 	#menubar ul{
@@ -86,5 +85,25 @@
 		max-width: 1080px;
 		height: 2000px;
 		border: 1px solid black; 
-	}	
+	}
+	
+	.searchbar{
+		margin-left : 10px;
+		width: 250px;
+		height: 100%;
+		line-height: 60px;
+		display: none;		
+	}
+	.search_input{
+		width: 200px;
+		height: 20px;
+	}
+	.search_button{
+		margin-top:5px;
+		width: 16px;
+		height: 16px;
+	}
+	
+	
+	
 	
