@@ -8,6 +8,14 @@
 <title>Insert title here</title>
 <c:set var="root" value="${pageContext.request.contextPath}"/>
 <link rel="stylesheet" type="text/css" href="${root}/resources/css/template.css">
+<script type="text/javascript" src="${root}/resources/jquery/jquery.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$(".search a").click(function() {
+			$(".searchbar").fadeIn();
+		});
+	});
+</script>
 </head>
 <body>
 	<div class = "fixedtop">
@@ -28,10 +36,18 @@
 					<li>
 						<a href="#">신간 도서</a>
 					</li>
-					<li>
-						<a href="#">찾기</a>						 
-					</li>
-				</ul>
+					<li class = "search">
+						<a href="#">찾기</a>				 
+					</li>		
+				</ul>				
+			</div>
+			<div class="searchbar">
+				<div>
+					<form>
+						<input class="search_input" type="text">
+						<input class="search_button" type="image" src="${root}/resources/img/search.png" alt="검색">
+					</form>
+				</div>
 			</div>	
 			
 			<div id="infobar">
