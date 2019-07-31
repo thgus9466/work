@@ -10,6 +10,7 @@
 	}
 	a{
 		text-decoration : none;
+		color: #10488d;
 	}
 	
 	
@@ -18,9 +19,10 @@
 		height : 60px;
 		position: fixed;
 		margin-bottom : 15px;
-		background-color: #efeee5;
+		background-color: #fff;
 		top: 0px;
-		left: 0px;		
+		left: 0px;	
+		border-bottom: 2px solid #dfdfdf;	
 	}	
 	.fixedtopbar{
 		max-width : 1200px;
@@ -79,10 +81,16 @@
 		float: left;
 	}
 	
+	.wrap{
+	min-width: 1080px;
+	margin: 0px auto;
+	border: 1px solid black;
+	}
+	
 	.container{
 		margin : 0px auto;
 		padding-top : 60px;
-		max-width: 1080px;
+		width: 950px;
 		height: 2000px;
 		border: 1px solid black; 
 	}
